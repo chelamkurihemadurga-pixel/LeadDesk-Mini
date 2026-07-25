@@ -2,13 +2,17 @@ from flask import *
 from flask_cors import CORS
 from flask_jwt_extended import *
 import sqlite3
+import os
 import bcrypt
 from datetime import datetime
 
 app = Flask(__name__)
 CORS(app)
 
-app.config["JWT_SECRET_KEY"] = "leaddesk-secret-key"
+app.config["JWT_SECRET_KEY"] = os.environ.get(
+    "JWT_SECRET_KEY",
+    "leaddesk-secret-key"
+)
 
 jwt = JWTManager(app)
 def init_db():
