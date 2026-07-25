@@ -104,7 +104,7 @@ function AdminDashboard() {
                 </div>
 
             </div>
-
+            <div className="table-container">
             <table>
 
                 <thead>
@@ -204,7 +204,7 @@ function AdminDashboard() {
                 </tbody>
 
             </table>
-
+                </div>
         </div>
 
     );
