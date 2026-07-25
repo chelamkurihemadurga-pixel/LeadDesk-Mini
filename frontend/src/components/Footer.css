@@ -1,0 +1,43 @@
+.footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:50px;
+}
+
+.footer h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.footer p{
+    color:#d1d5db;
+    margin:8px 0;
+    line-height:1.6;
+}
+
+.footer-text{
+    margin-top:20px;
+    font-size:14px;
+    color:#9ca3af;
+}
+
+@media(max-width:768px){
+
+.footer{
+    padding:30px 15px;
+}
+
+.footer h3{
+    font-size:22px;
+}
+.hero-btn{
+    box-shadow:0 8px 20px rgba(37,99,235,.3);
+}
+
+.footer p{
+    font-size:15px;
+}
+
+}

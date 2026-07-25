@@ -1,0 +1,77 @@
+.form-container{
+    width:90%;
+    max-width:700px;
+    margin:50px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.form-container h2{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.form-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+.form-container form{
+    display:flex;
+    flex-direction:column;
+}
+
+.form-container label{
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:6px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+.form-container textarea{
+    margin-bottom:20px;
+}
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus{
+    border-color:#2563eb;
+}
+
+
+
+.form-container button:hover{
+    background:#1d4ed8;
+}
+.form-container{
+    max-width:600px;
+}
+.form-container button{
+    width:100%;
+    background:#2563eb;
+    color:white;
+    padding:14px;
+    font-size:17px;
+    border:none;
+    border-radius:8px;
+}
+.form-container{
+    transition:0.3s;
+}
+
+.form-container:hover{
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
